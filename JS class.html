@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Document</title>
+
+</head>
+
+<body>
+
+<h2> JS CLASS</h2>
+<p id="student1"></p>
+<p id="student2"></p>
+<script>
+
+    class student{
+        constructor(name,year){
+
+            this.year=year;
+            this.name=name;
+            
+        }
+       
+  
+        
+    }
+    student1= new student("Bob",2014);
+   
+    document.getElementById("student1").innerHTML="Student was born in "+ student1.year
++" Name is " +student1.name; 
+
+student2= new student("Mosh",2008); 
+  document.getElementById("student2").innerHTML="Student was born in "+ student2.year
+   "Name is "+student2.name;   </script>
+
+</body>
+
+</html>
